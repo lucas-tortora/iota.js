@@ -44,8 +44,19 @@ module.exports = {
                         "tutorials/value-transactions/understanding-deposits",
                         "tutorials/value-transactions/sweep-outputs-to-reduce-deposits",
                     ]
+                },
+                {
+                    type: "category",
+                    label: "Native Token Transactions",
+                    link: {type: 'doc', id: "tutorials/native-token-transactions/introduction",},
+                    items: [
+                        "tutorials/native-token-transactions/prepare-the-dev-env",
+                        "tutorials/native-token-transactions/mint-native-tokens",
+                        "tutorials/native-token-transactions/native-tokens-transaction",
+                        "tutorials/native-token-transactions/melt-native-tokens",
+                    ]
                 }
-            ]
+            ],
         },
         {
             type: "category",
